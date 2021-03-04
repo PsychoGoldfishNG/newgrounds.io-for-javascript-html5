@@ -23,8 +23,6 @@ Here are some of the many things it can do for you:
 
 # Getting Started
 
-Newgrounds.io is currently in private Beta.  To request an invitation, join the Newgrounds.io Developers group at https://groups.google.com/d/forum/newgroundsio-developers
-
 Before you can use this library, you will need to create a project on http://www.newgrounds.com/projects/games and obtain an app id from your new project's "API Tools" page.  Be sure you have switched to the v3 beta!
 
 # Usage
@@ -168,7 +166,7 @@ Want to unlock one of those medals we just loaded?
 		
 		for (var i = 0; i < medals.length; i++) {
 			
-			medal = medal[i];
+			medal = medals[i];
 			
 			/* look for a matching medal name */
 			if (medal.name == medal_name) {
@@ -245,9 +243,9 @@ To enable debug mode, simply set 'debug' to true:
 
 API docs for this library are included in the repository.  See: doc/api/index.html 
 
-Documentation for server components can be found at http://www.newgrounds.com/wiki/creator-resources/newgrounds-apis/newgrounds-io/components
+Documentation for server components can be found at http://www.newgrounds.io/help/components/
 
-Join the Developer's Group at https://groups.google.com/d/forum/newgroundsio-developers
+Join the Newgrounds.io Discord at https://discord.gg/wcsCk2ErhH
 
 Follow us on Twitter https://twitter.com/Newgroundsio
 
