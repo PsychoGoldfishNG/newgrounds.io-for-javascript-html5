@@ -1,12 +1,12 @@
-![ngio_banner_small.png](https://bitbucket.org/repo/85X7LM/images/2671801611-ngio_banner_small.png)
-
 # Newgrounds.io for JavaScript/HTML5
 
 This is a client library used to interact with the Newgrounds.io server.
 
-Get full repository at https://bitbucket.org/newgrounds/newgrounds.io-for-javascript-html5/downloads
+Grab the compiled library file at https://github.com/PsychoGoldfishNG/newgrounds.io-for-javascript-html5/tree/master/bin to self-host or use the following HTML tag to load via CDN:
 
-Browse source files at https://bitbucket.org/newgrounds/newgrounds.io-for-javascript-html5/src
+```html
+<script src="https://cdn.jsdelivr.net/gh/PsychoGoldfishNG/newgrounds.io-for-javascript-html5@8772ef4/bin/newgroundsio.min.js"></script>
+```
 
 # What is Newgrounds.io?
 
