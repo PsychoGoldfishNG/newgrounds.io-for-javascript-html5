@@ -161,19 +161,20 @@ function onMedalUnlocked(medal) {
 	console.log('MEDAL GET:', medal.name);
 }
 
-function unlockMedal(medal_name) {
+/* attempt to unlock a medal */
+function unlockMedal(medal_id) {
 
 	/* If there is no user attached to our ngio object, it means the user isn't logged in and we can't unlock anything */
 	if (!ngio.user) return;
 
-	var medal;
+	var i, medal;
 
-	for (var i = 0; i < medals.length; i++) {
+	for (i = 0; i < medals.length; i++) {
 
 		medal = medals[i];
 
 		/* look for a matching medal name */
-		if (medal.name == medal_name) {
+		if (medal.id == medal_id) {
 
 			/* we can skip unlocking a medal that's already been earned */
 			if (!medal.unlocked) {
@@ -192,28 +193,21 @@ function unlockMedal(medal_name) {
 }
 
 /* lets unlock a medal!!! */
-unlockMedal('test medal 1');
+unlockMedal(some_medal_id);
 ```
 
 Or post a score?
 
 ```javascript
-function postScore(board_name, score_value) {
+function postScore(scoreboard_id, score_value) {
 
 	/* If there is no user attached to our ngio object, it means the user isn't logged in and we can't post anything */
 	if (!ngio.user) return;
 
-	var score;
-
-	for (var i = 0; i < scoreboards.length; i++) {
-
-		scoreboard = scoreboards[i];
-
-		ngio.callComponent('ScoreBoard.postScore', {id:scoreboard.id, value:score_value});
-	}
+	ngio.callComponent('ScoreBoard.postScore', {id:scoreboard_id, value:score_value});
 }
 
-postScore('test scores', 1234);
+postScore(some_scoreboard_id, your_score);
 ```
 
 # Error Handling
