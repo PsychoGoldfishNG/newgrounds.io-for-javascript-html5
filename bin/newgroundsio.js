@@ -2463,7 +2463,7 @@ Newgrounds.io.call_validators.CloudSave = {
 	/**
 	 * @property {object} clearSlot - Contains rules for validating calls to 'CloudSave.clearSlot'.
 	 */
-	clearSlot: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{"id":{"type":String,"extract_from":null,"required":true,"description":"The slot number."}},"returns":{"slot":{"object":"saveslot","description":"A #saveslot object."}}}, 
+	clearSlot: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{"id":{"type":Number,"extract_from":null,"required":true,"description":"The slot number."}},"returns":{"slot":{"object":"saveslot","description":"A #saveslot object."}}}, 
 
 	/**
 	 * @property {object} loadSlot - Contains rules for validating calls to 'CloudSave.loadSlot'.
