@@ -5,7 +5,7 @@ This is a client library used to interact with the Newgrounds.io server.
 Grab the compiled library file at https://github.com/PsychoGoldfishNG/newgrounds.io-for-javascript-html5/tree/master/bin to self-host or use the following HTML tag to load via CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/PsychoGoldfishNG/newgrounds.io-for-javascript-html5@8772ef4/bin/newgroundsio.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/PsychoGoldfishNG/newgrounds.io-for-javascript-html5@04bb346/bin/newgroundsio.min.js"></script>
 ```
 
 # What is Newgrounds.io?
