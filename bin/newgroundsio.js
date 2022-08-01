@@ -44,7 +44,7 @@ Newgrounds.io = {
 	/**
 	 * @property {string} GATEWAY_URI - The script all commands get posted to
 	 */
-	GATEWAY_URI: '//newgrounds.io/gateway_v3.php'
+	GATEWAY_URI: 'https://newgrounds.io/gateway_v3.php'
 };
 
 /**
