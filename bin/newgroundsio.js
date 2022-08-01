@@ -1919,6 +1919,7 @@ Newgrounds.io.model.saveslot.prototype.fromObject = function(object) {
 
 Newgrounds.io.model.saveslot.prototype.constructor = Newgrounds.io.model.saveslot;
 
+/**
  * Contains information about a score posted to a scoreboard. 
  * @name Newgrounds.io.model.score 
  * @constructor
