@@ -2478,7 +2478,7 @@ Newgrounds.io.call_validators.CloudSave = {
 	/**
 	 * @property {object} setData - Contains rules for validating calls to 'CloudSave.setData'.
 	 */
-	setData: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{"data":{"type":Number,"extract_from":null,"required":true,"description":"The data you want to save."},"id":{"type":Number,"extract_from":null,"required":true,"description":"The slot number."}},"returns":{"slot":{"object":"saveslot","description":null}}} 
+	setData: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{"data":{"type":String,"extract_from":null,"required":true,"description":"The data you want to save."},"id":{"type":Number,"extract_from":null,"required":true,"description":"The slot number."}},"returns":{"slot":{"object":"saveslot","description":null}}} 
 
 };
 /**
