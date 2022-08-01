@@ -57,22 +57,22 @@ Newgrounds.io.call_validators.CloudSave = {
 	/**
 	 * @property {object} clearSlot - Contains rules for validating calls to 'CloudSave.clearSlot'.
 	 */
-	clearSlot: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{"id":{"type":String,"extract_from":null,"required":true,"description":"The slot number."}},"returns":{"slot":{"object":"save","description":"A #save object."}}}, 
+	clearSlot: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{"id":{"type":String,"extract_from":null,"required":true,"description":"The slot number."}},"returns":{"slot":{"object":"saveslot","description":"A #saveslot object."}}}, 
 
 	/**
 	 * @property {object} loadSlot - Contains rules for validating calls to 'CloudSave.loadSlot'.
 	 */
-	loadSlot: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{"id":{"type":Number,"extract_from":null,"required":true,"description":"The slot number."}},"returns":{"slot":{"object":"save","description":"A #save object."}}}, 
+	loadSlot: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{"id":{"type":Number,"extract_from":null,"required":true,"description":"The slot number."}},"returns":{"slot":{"object":"saveslot","description":"A #saveslot object."}}}, 
 
 	/**
 	 * @property {object} loadSlots - Contains rules for validating calls to 'CloudSave.loadSlots'.
 	 */
-	loadSlots: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{},"returns":{"slots":{"array":{"object":"save"},"description":"An array of #save objects."}}}, 
+	loadSlots: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{},"returns":{"slots":{"array":{"object":"saveslot"},"description":"An array of #saveslot objects."}}}, 
 
 	/**
 	 * @property {object} setData - Contains rules for validating calls to 'CloudSave.setData'.
 	 */
-	setData: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{"data":{"type":Number,"extract_from":null,"required":true,"description":"The data you want to save."},"id":{"type":Number,"extract_from":null,"required":true,"description":"The slot number."}},"returns":{"slot":{"object":"save","description":null}}} 
+	setData: {"require_session":true,"secure":false,"redirect":false,"import":false,"params":{"data":{"type":Number,"extract_from":null,"required":true,"description":"The data you want to save."},"id":{"type":Number,"extract_from":null,"required":true,"description":"The slot number."}},"returns":{"slot":{"object":"saveslot","description":null}}} 
 
 };
 /**
