@@ -1,3 +1,7 @@
+# This library has been replaced
+
+Use the latest, official library at [NewgroundsIO-JS](https://github.com/PsychoGoldfishNG/NewgroundsIO-JS)
+
 # Newgrounds.io for JavaScript/HTML5
 
 This is a client library used to interact with the Newgrounds.io server.
